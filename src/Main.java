@@ -6,7 +6,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Upišite neki cijeli broj: ");
         while (!input.hasNextInt()) {
-            System.out.print("Upišite neki cijeli broj: ");
+            System.out.print("To nije cijeli broj! Upišite neki cijeli broj: ");
             input.nextLine();
         }
         int broj = input.nextInt();
