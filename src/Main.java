@@ -17,6 +17,6 @@ public class Main {
         for (int i = 1; i <= broj; i++) {
             fakt=i*fakt;
         }
-        System.out.println(fakt);
+        System.out.println("Faktorijel broja " + broj + " je " + fakt);
     }
 }
